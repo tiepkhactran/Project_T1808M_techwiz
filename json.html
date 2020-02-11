@@ -1,0 +1,21 @@
+	<div ng-controller="customersCtrl">
+		<h1 style="text-align: center">Thong tin tac duong</h1>
+		<p><input type="search" style="border: 1px solid green" name="top-search" id="topSearch"
+                                        placeholder="Tim kiem thong tin..." ng-model="test"></input></p>
+		<table class="table table-striped">
+			<thead>
+				<th ng-click="orderByMe('location')">Location</th>
+				<th ng-click="orderByMe('date')">Date</th>
+				<th ng-click="orderByMe('time')">Time</th>
+				<th ng-click="orderByMe('desc')">Description</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="x in myData | filter: test | orderBy:myOrderBy">
+					<td>{{ x.location }}</td>
+					<td>{{ x.date }}</td>
+					<td>{{ x.time }}</td>
+					<td>{{ x.desc }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>

@@ -1,0 +1,127 @@
+{
+	"traffics": [
+			{
+				"location": "Ton That Thuyet, Cau Giay, Ha Noi",
+				"date": "25/03/2019",
+				"time": "16:00",
+				"desc": "Co xe tro hang bi do gay tac duong nang"
+			},
+			{
+				"location": "Hoang Quoc Viet, Cau Giay, Ha Noi",
+				"date": "25/03/2019",
+				"time": "17:15",
+				"desc": "Co un tac giao thong nhe"
+			},
+			{
+				"location": "Luong Yen, Bach Dang, Hai Ba Trung, Ha Noi",
+				"date": "25/03/2019",
+				"time": "13:30",
+				"desc": "Co tai nan giao thong xe may gay tac duong nang"
+			},
+			{
+				"location": "Dao Tan, Ba Dinh, Ha Noi",
+				"date": "25/03/2019",
+				"time": "12:40",
+				"desc": "Co tai nan giao thong o to gay tac duong nang"
+			},
+			{
+				"location": "Lieu Giai, Ba Dinh, Ha Noi",
+				"date": "25/03/2019",
+				"time": "06:40",
+				"desc": "Gio moi nguoi di lam gay can tro giao thong va tac duong nang"
+			},
+			{
+				"location": "Hoang Hoa Tham, Tay Ho, Ha Noi",
+				"date": "25/03/2019",
+				"time": "07:25",
+				"desc": "Co xe tai gay can tro lam tac duong nang"
+			},
+			{
+				"location": "Thuy Khue, Tay Ho, Ha Noi",
+				"date": "25/03/2019",
+				"time": "10:10",
+				"desc": "Co nhieu xe bus di vao cung duong gay tac duong"
+			},
+			{
+				"location": "Giai Phong, Hai Ba Trung, Ha Noi",
+				"date": "25/03/2019",
+				"time": "21:20",
+				"desc": "Co tac duong nang do nhieu phuong tien di lai"
+			}
+		]
+
+	,
+
+	"products" : [
+			{
+				"name": "Mu bao hiem",
+				"image": "img/pro-img/mu.jpeg",
+				"price": "10 usd",
+				"desc": "Mu bao hiem dat chuan"
+			},
+			{
+				"name": "Ao da",
+				"image": "img/pro-img/ao.jpg",
+				"price": "20 usd",
+				"desc": "Ao da bao ho"
+			},
+			{
+				"name": "Non giao thong",
+				"image": "img/pro-img/cone.png",
+				"price": "5 usd",
+				"desc": "Non giao thong"
+			},
+			{
+				"name": "Den bao hieu",
+				"image": "img/pro-img/den.jpeg",
+				"price": "10 usd",
+				"desc": "Den pha bao hieu"
+			},
+			{
+				"name": "Mu bao hiem",
+				"image": "img/pro-img/mu.jpeg",
+				"price": "10 usd",
+				"desc": "Mu bao hiem dat chuan"
+			}, {
+				"name": "Ao da",
+				"image": "img/pro-img/ao.jpg",
+				"price": "20 usd",
+				"desc": "Ao da bao ho"
+			}, {
+				"name": "Non giao thong",
+				"image": "img/pro-img/cone.png",
+				"price": "5 usd",
+				"desc": "Non giao thong"
+			}, {
+				"name": "Den bao hieu",
+				"image": "img/pro-img/den.jpeg",
+				"price": "10 usd",
+				"desc": "Den pha bao hieu"
+			}
+		]
+	,
+	
+	"reports" : [
+			{
+				"date": "25/03/2019",
+				"location": "Cau Giay, Ha Noi",
+				"desc": "Bao cao co: 2 tuyen duong co un tac: Hoang Quoc Viet va Ton That Thuyet"
+			},
+			{
+				"date": "25/03/2019",
+				"location": "Ba Dinh, Ha Noi",
+				"desc": "Bao cao co: 2 tuyen duong co un tac: Lieu Giai va Dao Tan"
+			},
+			{
+				"date": "25/03/2019",
+				"location": "Hai Ba Trung, Ha Noi",
+				"desc": "Bao cao co: 2 tuyen duong co un tac: Luong Yen va Giai Phong"
+			},
+			{
+				"date": "25/03/2019",
+				"location": "Tay Ho, Ha Noi",
+				"desc": "Bao cao co: 2 tuyen duong co un tac: Hoang Hoa Tham va Thuy Khue"
+			}
+	]
+}		
+

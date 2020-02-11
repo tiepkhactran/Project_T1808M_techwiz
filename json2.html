@@ -1,0 +1,20 @@
+	<div ng-controller="customersCtrl2">
+		<h1 style="text-align: center">Bao cao tac duong</h1>
+		<table class="table table-striped">
+			<thead>
+				<th ng-click="orderByMe('date')">Date</th>
+				<th ng-click="orderByMe('location')">Location</th>
+				<th ng-click="orderByMe('desc')">Description</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="x in myData | orderBy:myOrderBy">	
+					<td>{{ x.date }}</td>
+					<td>{{ x.location }}</td>
+					<td>{{ x.desc }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div> 
+	
+
+  
